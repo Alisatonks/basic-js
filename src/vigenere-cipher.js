@@ -24,7 +24,6 @@ class VigenereCipheringMachine {
     this.type = type;
   }
  
-
   encrypt(string, key) {
     if (!(string && key)) {
       throw new Error('Incorrect arguments!');
